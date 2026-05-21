@@ -7,7 +7,7 @@ class TempestCli < Formula
   on_macos do
     on_arm do
       url "https://download.gotempest.app/cli/tempest-#{version}-darwin-arm64.tar.gz"
-      sha256 "54d8b107f09aafc9a3ec3fee1b1f46bf07ba693b2130c1250521f3f568d0b6ad"
+      sha256 "cf7fdd87cb2de7789a5a5b9f996da61aec19437b017648c37e5cf35b38f94978"
     end
   end
 
