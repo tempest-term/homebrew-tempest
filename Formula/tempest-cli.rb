@@ -1,13 +1,13 @@
 class TempestCli < Formula
   desc "All-platform terminal emulator CLI: SSH, Telnet, RCON, FS, MCP server"
   homepage "https://gotempest.app"
-  version "3.12.7"
+  version "3.12.8"
   license :cannot_represent
 
   on_macos do
     on_arm do
       url "https://download.gotempest.app/cli/tempest-#{version}-darwin-arm64.tar.gz"
-      sha256 "dedb3b4bebc7c19b53114e3f60ccc7cad094f5854832e299c4101c9099fbcac6"
+      sha256 "a3e2317d375d0aa6703f6b9be6de7bc782dbbc6d21c424058c72e6bc2fe250de"
     end
   end
 
