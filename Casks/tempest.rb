@@ -1,6 +1,6 @@
 cask "tempest" do
-  version "3.13.0"
-  sha256 "29121abd2d70fc18abfba0a1b240141f0258ff0c540f29d18d1dc36532da9ee9"
+  version "3.13.1"
+  sha256 "c6dd682dbfdeae7c20bc23a9a4005fae0093fde88796bcd1d2315a919046cb2e"
 
   url "https://download.gotempest.app/Tempest-#{version}-arm64-mac.zip"
   name "Tempest"
