@@ -1,6 +1,6 @@
 cask "tempest" do
-  version "3.16.4"
-  sha256 "c2b9aba6bb614606c25e11b45cbb22a97aac576bdefaa451815ccd3e32ca134d"
+  version "3.16.5"
+  sha256 "4189650516079e36115719e8e2d8ceab5a5c1fa666c9b6626b3b36f697e7e1e2"
 
   url "https://download.gotempest.app/Tempest-#{version}-arm64-mac.zip"
   name "Tempest"
@@ -13,7 +13,7 @@ cask "tempest" do
   end
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Tempest.app"
 
