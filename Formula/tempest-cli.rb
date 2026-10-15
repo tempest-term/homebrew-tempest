@@ -1,18 +1,19 @@
 class TempestCli < Formula
   desc "All-platform terminal emulator CLI: SSH, Telnet, RCON, FS, MCP server"
   homepage "https://gotempest.app"
-  version "3.17.1"
+  version "3.17.2"
   license :cannot_represent
 
   on_macos do
     on_arm do
       url "https://download.gotempest.app/cli/tempest-#{version}-darwin-arm64.tar.gz"
-      sha256 "15daa17dba3844c2a77478cded6cc3a1bf91d2b1399f2f15bf939bec320e0b55"
+      sha256 "8795610b9e395ba3749a8e58d6a713b184ceab32f1a4250b1493320a274bdec7"
     end
   end
 
   def install
     bin.install "tempest"
+    generate_completions_from_executable(bin/"tempest", "completions", shells: [:bash, :zsh, :fish])
   end
 
   test do
